@@ -7,6 +7,7 @@
 
 .full-page {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
 }
 
 /* Header Section */
@@ -107,4 +108,32 @@ main ul li:hover,
    align-items: center;
 }
 
+.three-column {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
 /* Footer Section */
+
+footer {
+    color: #430007;
+    margin: 20px;
+}
+
+#list {
+    color: #430007;
+    padding: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+#list a {
+    color: #430007;
+    text-decoration: none;
+}
+
+#list a:hover,
+:focus-visible {
+    color: darkred;
+}
